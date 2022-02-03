@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.scss">
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>MAPS Oriental Civilisation</title>
+
+    </head>
+<body>
+
+  <h3 class="fixed">Let's Discover Oriental Culture</h3>
+<div class="word wordo">
+	<span>OR</span>
+	<span>IE</span>
+	<span>NT</span>
+	<span>AL</span>
+	<span> &nbsp; </span>
+  <span>CIV</span>
+  <span>ILI</span>
+  <span>SAT</span>
+  <span>ION</span>
+</div>
+
+  <section>
+
+    <div class="wrapper">
+        <img class="om" src="https://source.unsplash.com/random/600x600?egypt" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?marrakech" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?algeria" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?jordanie" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?petra" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?sky" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?palestine" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?syria" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?ice" alt="">
+        <img class="om" src="https://source.unsplash.com/random/600x600?arab" alt="">
+      </div>
+  </section>
+
+
+
+        <p id="test">test</p>
+        <p id="test1">test1</p>
+        <p id="test2">test2</p>
+        <table id="markerTable" style="width:70%">
+            <tr>
+              <th>Superhero of the country</th>
+              <th>City</th>
+              <th>Authors</th>
+            </tr>
+            <tr onclick=testFunction()>
+              <td>Spiderman</td>
+              <td>Cairo, Egypt</td>
+              <td id="spidermanCord">Taha Hussein, Najib Mahfoud</td>
+            </tr>
+            <tr onclick=testFunction2()>
+              <td>Hulk</td>
+              <td>Damas, Syria</td>
+              <td id="hulkCord">Aziz Nisen, Hanna Mina</td>
+            </tr>
+            <tr onclick=testFunction3()>
+              <td>Wolverine</td>
+              <td>Tunis, Tunisia</td>
+              <td id="wolverineCord">Tahar Haddad, Ibn Khaldoun</td>
+            </tr>
+            <tr onclick=testFunction4()>
+              <td>Fennec</td>
+              <td>Alger, Algeria</td>
+              <td id="wolverineCord">Ahlem Mosteghanemi, Albert Camus</td>
+            </tr>
+            <tr onclick=testFunction5()>
+              <td>Lions</td>
+              <td>Fez, Morocco</td>
+              <td id="wolverineCord">Mehdi Elmenjra, Ahmed Choukri</td>
+            </tr>
+            <tr onclick=testFunction6()>
+              <td>Wolverine</td>
+              <td>Makkah, Saoudi Arabia</td>
+              <td id="wolverineCord"> Khawla Hamdi, Hassan Alwan</td>
+            </tr>
+        </table>
+        <div id="map" style = "width:100vw; height:100vh;"></div> <br><br><br><br><br>
+
+
+        <footer>
+          <p>Créé par Groupe: Jellou_a pour le projet PLI <i class="fa fa-heart"></i> à  <a target="_blank" href="https://etna.io/">L'ETNA</a></p>
+
+          <p> </p>
+        </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
